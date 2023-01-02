@@ -1,0 +1,7 @@
+CREATE TABLE INVESTMENTS (
+    id SERIAL PRIMARY KEY,
+    class VARCHAR NOT NULL,
+    instrument_name VARCHAR NOT NULL,
+    price FLOAT NOT NULL,
+    quantity INTEGER NOT NULL
+)
